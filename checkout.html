@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout | Project Cyril</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body class="checkout-page">
+
+  <div class="checkout-container">
+    <h1>Confirm Your Purchase</h1>
+
+    <form id="checkout-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <button type="submit" id="confirmBtn">Confirm Purchase</button>
+    </form>
+
+    <a href="accessories.html" class="back-btn">← Back to Accessories</a>
+  </div>
+
+  <!-- Popup -->
+  <div class="popup" id="popup">
+    <div class="popup-inner">
+      <h2>Thank You!</h2>
+      <p>Our staff will call you to confirm your order.</p>
+      <button id="closepopup">OK</button>
+    </div>
+  </div>
+
+  <script src="JavaScripts/script.js"></script>
+
+ <footer>
+    <p>&copy; 2025 cyrilscreativecapture. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
